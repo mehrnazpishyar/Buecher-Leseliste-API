@@ -4,7 +4,8 @@
   "description": "Eine REST-API zur Verwaltung einer persönlichen Leseliste. Benutzer können sich registrieren, anmelden und ihre eigenen Bücher anlegen, anzeigen, ändern und löschen. Jeder Benutzer sieht ausschließlich seine eigenen Bücher.",
   "main": "index.js",
   "scripts": {
-    "start": "node --env-file=.env server.js"
+    "start": "node --env-file=.env src/server.js",
+     "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,20 @@
   "bugs": {
     "url": "https://github.com/mehrnazpishyar/Buecher-Leseliste-API/issues"
   },
-  "homepage": "https://github.com/mehrnazpishyar/Buecher-Leseliste-API#readme"
+  "homepage": "https://github.com/mehrnazpishyar/Buecher-Leseliste-API#readme",
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prisma": "^6.19.3"
+  }
 }
