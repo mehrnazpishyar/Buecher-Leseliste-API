@@ -1,0 +1,21 @@
+{
+  "name": "bücher-leseliste-api",
+  "version": "1.0.0",
+  "description": "Eine REST-API zur Verwaltung einer persönlichen Leseliste. Benutzer können sich registrieren, anmelden und ihre eigenen Bücher anlegen, anzeigen, ändern und löschen. Jeder Benutzer sieht ausschließlich seine eigenen Bücher.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehrnazpishyar/Buecher-Leseliste-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mehrnazpishyar/Buecher-Leseliste-API/issues"
+  },
+  "homepage": "https://github.com/mehrnazpishyar/Buecher-Leseliste-API#readme"
+}
