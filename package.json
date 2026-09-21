@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "name": "bücher-leseliste-api",
   "version": "1.0.0",
   "description": "Eine REST-API zur Verwaltung einer persönlichen Leseliste. Benutzer können sich registrieren, anmelden und ihre eigenen Bücher anlegen, anzeigen, ändern und löschen. Jeder Benutzer sieht ausschließlich seine eigenen Bücher.",
