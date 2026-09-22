@@ -5,7 +5,7 @@
   "description": "Eine REST-API zur Verwaltung einer persönlichen Leseliste. Benutzer können sich registrieren, anmelden und ihre eigenen Bücher anlegen, anzeigen, ändern und löschen. Jeder Benutzer sieht ausschließlich seine eigenen Bücher.",
   "main": "index.js",
   "scripts": {
-    "start": "node --env-file=.env src/server.js",
+    "start": "node src/server.js",
      "dev": "nodemon src/server.js",
      "build": "npx prisma migrate deploy"
   },
